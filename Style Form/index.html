@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Devslopes Survey Form</title>
+</head>
+
+<body>
+  <header>
+    <h1>Devslopes Survey Form</h1>
+    <h3>Thank you for taking the time to help us improve the platform</h3>
+  </header>
+  <section class="form">
+    <form>
+      <div class="name">
+        <label for="name" class="title">Name*</label><br />
+        <input type="text" id="name" placeholder="Enter your name" class="bar" size="75" required />
+      </div>
+      <br /><br />
+      <div class="email">
+        <label for="email" class="title">Email*</label><br />
+        <input type="email" id="email" placeholder="Enter your Email" class="bar" size="75" required />
+      </div>
+      <br><br>
+      <div class="age">
+        <label for="age" class="title">Age</label><br>
+        <input type="number" name="age" id="age" min="1" max="99" class="bar" required>
+      </div>
+      <br /><br />
+      <div class="currentRole">
+        <label for="currentRole" class="title">Which option best describes your current role?</label><br />
+        <select name="currentRole" id="currentRole" class="bar">
+          <option value="student">Student</option>
+          <option value="fullTimeJob">Full Time Job</option>
+          <option value="fullTimeLearner">Full Time Learner</option>
+          <option value="preferNotToSay">Prefer not to say</option>
+        </select>
+      </div>
+      <br /><br />
+      <div class="recommend">
+        <label for="recommend" class="title">Would you recommend Devslopes to a friend?</label><br />
+        <input type="radio" value="definitely" id="definitely" name="recommend" />
+        <label for="recommend">Definitely</label>
+        <br />
+        <input type="radio" value="maybe" id="maybe" name="recommend" />
+        <label for="recommend">Maybe</label>
+        <br /><input type="radio" value="notSure" id="notSure" name="recommend" />
+        <label for="recommend">Not Sure</label>
+      </div>
+      <br /><br />
+      <div class="feature">
+        <label for="feature" class="title">What is your favorite feature of Devslopes?</label><br />
+        <select name="feature" id="feature" class="bar">
+          <option value="challenges">Challenges</option>
+          <option value="community">Community</option>
+          <option value="mentorship">Mentorship</option>
+          <option value="projects">Projects</option>
+        </select>
+      </div>
+      <br /><br />
+      <div class="improve">
+        <label for="improve" class="title">What would you like to see improved?
+          <span class="small">(Check all that apply)</span></label><br />
+        <input type="checkbox" name="improve" id="frontEnd" />
+        <label for="improve">Front-End Projects</label><br>
+        <input type="checkbox" name="improve" id="backEnd" />
+        <label for="improve">Back-End Projects</label><br>
+        <input type="checkbox" name="improve" id="challenges" />
+        <label for="improve">Challenges</label><br>
+        <input type="checkbox" name="improve" id="videos" />
+        <label for="improve">Videos</label><br>
+        <input type="checkbox" name="improve" id="onlineMeetups" />
+        <label for="improve">Online Meetups</label><br>
+        <input type="checkbox" name="improve" id="community" />
+        <label for="improve">Community</label><br>
+      </div>
+      <br><br>
+      <div class="comments">
+        <label for="comments" class="title">Any comments or suggestions?</label><br>
+        <textarea name="comments" id="comments" placeholder="Enter your comment here..."></textarea>
+      </div>
+      <br><br>
+      <div class="submit">
+      <input type="submit" name="submit" id="submit">
+
+      </div>
+    </form>
+  </section>
+</body>
+
+</html>

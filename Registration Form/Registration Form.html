@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Registration Form</h1>
+      <hr />
+    </header>
+
+    <h3>Please Provide Your Information</h3>
+
+    <section class="Name">
+      <label for="Name">Name*</label><br />
+      <input
+        id="Name"
+        name="Name"
+        placeholder="Full Name"
+        type="text"
+        required
+      />
+    </section>
+
+    <br /><br />
+    
+    <section class="Email">
+      <label for="Email">Email*</label><br />
+      <input
+        type="email"
+        id="Email"
+        name="email"
+        placeholder="Email@email.com"
+        required
+      />
+    </section>
+    
+    <br /><br />
+    
+    <section class="Telephone">
+      <label for="phone">Telephone Number*</label><br />
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        max="3"
+        placeholder="xxx"
+        size="3"
+        required
+      />
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        max="3"
+        placeholder="xxx"
+        size="3"
+        required
+      />
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        max="4"
+        placeholder="xxxx"
+        size="4"
+        required
+      />
+    </section>
+    
+    <br /><br />
+    
+    <section class="DOB">
+      <label for="DOB">DOB*</label><br />
+      <input type="date" name="DOB" id="DOB" size="15" required />
+      <br /><br />
+      <label for="Gender">Gender*</label><br />
+      <input type="radio" value="male" id="male" name="gender" />
+      <label for="name">Male</label>
+      <input type="radio" value="female" id="female" name="gender" />
+      <label for="name">Female</label>
+      <input type="radio" value="Other" id="Other" name="gender" />
+      <label for="name">Other</label>
+    </section>
+    
+    <br /><br />
+    
+    <section class="householdSize">
+      <label for="householdSize">Household Size</label><br />
+      <input
+        type="number"
+        name="householdSize"
+        id="householdSize"
+        placeholder=""
+        size="5"
+        min="1"
+        maxlength="2"
+      />
+    </section>
+    
+    <br /><br />
+    
+    <section class="annualIncome">
+      <label for="annualIncome">Annual Income</label><br />
+      <select name="annualIncome" id="annualIncome">
+        <option value="Less than $40k">Less than $40k</option>
+        <option value="$40k to $60k">$40k to $60k</option>
+        <option value="$60k to $80k">$60k to $80k</option>
+        <option value="More than $80k">More than $80k</option>
+      </select>
+    </section>
+    
+    <br><br>
+    
+    <section class="Message">
+      <label for="Message">Message</label><br>
+      <textarea name="Message" id="Message" rows="8" cols="60">Add message here (optional)</textarea>
+    </section>
+    
+    <br><br>
+    
+    <section class="password">
+      <label for="Password">Password*</label><br>
+      <input type="password" min="8" max="30">
+      <div id="Password" style="font-size: smaller;">
+        <p>Password must include</p>
+        <ul>
+          <li>8 or more characters</li>
+          <li>Upper and lowercase letters</li>
+          <li>Numbers</li>
+          <li>A special character</li>
+        </ul>
+      </div>
+      <br>
+      <label for="Password">Confirm Password*</label><br>
+      <input type="password" min="8" max="30">
+    </section>
+
+    <br><br>
+
+    <section class="TOS">
+      <input type="checkbox" id="tos" name="tos">
+      <span>By signing up, you agree to the <a href="terms of service">Terms of Service</a></span>
+    </section>
+
+    <br><br>
+
+    <footer>
+      <input type="submit" name="submit">
+    </footer>
+  </body>
+</html>

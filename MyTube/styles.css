@@ -1,0 +1,166 @@
+body {
+  background-color: rgb(10, 9, 9);
+  color: white;
+  max-width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+#blueTitle {
+  color: dodgerblue;
+}
+
+nav {
+  margin: auto;
+  border: 8px solid white;
+  border-radius: 80px;
+  width: 49%;
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  position: sticky;
+  top: 20px;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 500px;
+  margin: 5px 10px 5px 10px;
+  padding: 0 35px 0 35px;
+  overflow: hidden;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownMenu {
+  display: none;
+  position: absolute;
+  background-color: black;
+  z-index: 1;
+  border-radius: 80px;
+}
+
+nav a:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
+
+section {
+  margin-top: 60px;
+  position: static;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  position: static;
+  font-size: 35px;
+}
+
+table{
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: auto;
+}
+
+td {
+  border: 3px solid white;
+  border-radius: 10px;
+  max-width: 100%;
+  z-index: 2;
+}
+
+td h4 {
+  margin-left: 10px;
+}
+
+td a {
+  color: dodgerblue;
+  text-decoration: none;
+  font-size: 15px;
+  overflow: auto;  
+}
+
+td:hover {
+  background-color: white;
+  color: black;
+}
+
+iframe {
+  max-width: 100%;
+  z-index: 1;
+}
+
+.form {
+  margin: 40px 180px;
+}
+
+b {
+  font-size: 25px;
+}
+
+#vidTitle, #vidDescription, #vidFile, #vidGenre, #vidPublic {
+  margin-top: 40px;
+  border: none;
+}
+
+#vidTitle input, #vidDescription textarea, #vidFile input, #vidGenre select {
+  margin-top: 10px;
+}
+
+#vidTitle input, #vidGenre select {
+  height: 30px;
+}
+
+#video {
+  position: static;
+  left: 20;
+}
+
+#submit {
+  background-color: dodgerblue;
+  border: none;
+  display: block;
+  margin: 40px auto;
+  height: 50px;
+  width: 150px;
+}
+
+.videoPage h3 {
+  text-align: center;
+  color: dodgerblue;
+  font-size: 30px;
+}
+
+.videoPage iframe {
+  display: block;
+  margin: auto;
+}
+
+.videoPage p {
+  margin: 50px 150px;
+  padding: 20px;
+  border: 2px solid dodgerblue;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+
+hr {
+  margin-top: 400px;
+}

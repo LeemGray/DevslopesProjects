@@ -1,0 +1,46 @@
+body {
+  color: ghostwhite;
+  background-image: url(https://img.stablecog.com/insecure/1920w/aHR0cHM6Ly9iLnN0YWJsZWNvZy5jb20vMTUwNTJkNmEtYjI3My00MjllLTljNGMtYWRlY2U0OTBlYWU4LmpwZWc.webp);
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-color: rgb(72, 61, 139, 90%);
+}
+
+header {
+  text-align: center;
+  color: darkslateblue;
+}
+
+section {
+  background-color: rgb(72, 61, 139, 90%);
+  margin-left: 32%;
+  margin-right: 32%;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bar {
+  position: relative;
+  width: 530px;
+  height: 25px;
+}
+
+textarea {
+  width: 530px;
+  height: 75px;
+}
+
+#submit {
+  position: relative;
+  background-color: peachpuff;
+  width: 530px;
+  height: 35px;
+  border: none;
+  color: darkslateblue;
+  font-size: 20px;
+}

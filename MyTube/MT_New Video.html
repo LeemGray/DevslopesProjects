@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>New Video on MyTube</title>
+</head>
+
+<body>
+  <header>
+    <h1><em id="blueTitle">My</em>Tube</h1>
+    <nav>
+      <a href="./index.html" class="navButton">Home</a>
+      <div class="dropdown">
+        <a>Genre</a>
+        <div class="dropdownMenu">
+          <a href="./collections/MT_Racing.html" class="navButton">Racing</a>
+          <a href="./collections/MT_Gaming.html" class="navButton">Gaming</a>
+          <a href="./collections/MT_Food.html" class="navButton">Food</a>
+        </div>
+      </div>
+      <a href="./MT_New Video.html" class="navButton">New Video</a>
+    </nav>
+  </header>
+  <section>
+    <h2>Upload <em id="blueTitle">My</em> Video</h2>
+    <div class="form">
+    <form>
+      <div id="vidTitle">
+        <label for="title"><b>Video Title</b></label><br />
+        <input type="text" id="title" placeholder="The best video ever..." size="99" required />
+      </div>
+      <div id="vidDescription">
+        <label for="description"><b>Description</b></label><br />
+        <textarea name="" id="description" placeholder="My mom said this is the best video ever because..." rows="5"
+          cols="99"></textarea>
+      </div>
+      <div id="vidFile">
+        <label for="video"><b>Video File</b></label><br />
+        <input type="file" id="video" name="filename" />
+      </div>
+      <div id="vidGenre">
+        <label for="genre"><b>Genre</b></label><br />
+        <select id="genre">
+          <option value="racing">Racing</option>
+          <option value="gaming">Gaming</option>
+          <option value="food">Food</option>
+        </select>
+      </div>
+      <div id="vidPublic">
+        <input type="radio" value="public" id="public" name="private" />
+        <label for="public">Public</label>
+        <input type="radio" value="private" id="private" name="private" />
+        <label for="public">Private</label>
+      </div>
+        <input type="submit" id="submit"/>
+    </form>
+  </div>
+  </section>
+  <hr />
+  <footer>&copy; copyright"</footer>
+</body>
+
+</html>
